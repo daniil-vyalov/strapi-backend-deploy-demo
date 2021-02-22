@@ -8,18 +8,6 @@
     "increments": true,
     "timestamps": true
   },
-  "attributes": {
-    "favicon": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
-    },
     "siteName": {
       "type": "string",
       "required": true

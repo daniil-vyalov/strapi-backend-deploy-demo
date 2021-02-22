@@ -8,6 +8,7 @@
     "increments": true,
     "timestamps": true
   },
+  "attributes": {
     "siteName": {
       "type": "string",
       "required": true
